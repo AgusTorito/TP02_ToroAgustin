@@ -42,7 +42,7 @@ public class Main {
 					System.out.println("Ingrese los detalles de la efemeride: ");
 					scanner.nextLine();
 					String detalles = scanner.nextLine();
-					System.out.println("Ingrese el mes de la Efemeride (1 a 12): ");
+					System.out.println("Ingrese el mes de la Efemeride [1 a 12]: ");
 					int numeroMes = scanner.nextInt();
 					Mes mes;
 					if(numeroMes >= 1 && numeroMes <= 12)
