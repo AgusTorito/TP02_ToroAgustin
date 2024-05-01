@@ -25,7 +25,7 @@ public class Main {
 			{
 				System.out.println("Error: Entrada inválida. Por favor, ingresa un número válido.");
                 scanner.next(); // Limpia el buffer del scanner
-                continue;
+                continue;//Hace que muestre de vuelta el menu de inicio
 			}
 			switch(op)
 			{
